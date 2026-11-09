@@ -7,7 +7,7 @@ body {
     width: 90%;
     margin: auto;
     padding: 10px;
-    text-align: center;
+    text-align: left;
 }
 
 .title {
@@ -15,18 +15,23 @@ body {
     padding: 10px;
 }
 
-img {
-    margin: 0 auto;
-    padding: 10px;
-    height: auto;
-    max-width: 100%;
-}
-
 .col {
     float: center;
     width: max-content;
     height: max-content;
     padding: 5px;
+}
+
+.row{
+    padding: 5px;
+}
+
+img {
+    display: block;
+    padding: 10px;
+    max-width: 100%;
+    margin: 0 auto;
+    height: auto;
 }
 
 .active, li a.active {
@@ -41,6 +46,7 @@ ul {
 }
 
 li {
+    font-size: large;
     float: left;
     align-content: right;
 }
