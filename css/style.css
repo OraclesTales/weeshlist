@@ -31,6 +31,7 @@ img {
     max-width: 100%;
     margin: 0 auto;
     height: auto;
+    max-height:250px;
 }
 
 .active, li a.active {
