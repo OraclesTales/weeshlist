@@ -30,9 +30,25 @@
 }
 @font-face{
     font-family:"love";
-    src: url("woff/Love.woff") format("woff");
+    src: url("woff/Ice-Cream.woff") format("woff");
     font-weight: normal;
     font-style: normal;
+}
+@font-face{
+    font-family:"artpostblack";
+    src: url("woff/Art Post black.woff2") format("woff2");
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face{
+    font-family:"artpost";
+    src: url("woff/Art Post.woff2") format("woff2");
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face{
+    font-family: "arcade";
+    src: url("woff/ARCADE.woff2") format("woff2");  
 }
 body {
     background-color: rgb(38, 32, 51);
@@ -54,10 +70,18 @@ h3{
 }
 h4{
     font-family: "newromantics";
-    letter-spacing: 2px;
+    letter-spacing: 3px;
+}
+h5{
+    font-family: "artpostblack";
 }
 p{
     font-family: "love";
+    font-size: 20px;
+}
+
+.tiny{
+    font-size: 15px;
 }
 
 .container {
@@ -92,11 +116,14 @@ img {
     max-height:350px;
 }
 
-.active, li a.active {
-    text-decoration: underline;
+a{  
+    font-family: "bluescreen";
+    color: rgb(255, 242, 185);
+    text-decoration: none;
 }
 
 ul {
+    
     align-content: right;
     float: right;
     list-style-type: none;
@@ -105,6 +132,7 @@ ul {
 }
 
 li {
+    
     font-size: large;
     float:left;
     text-align: right;
@@ -112,16 +140,19 @@ li {
 }
 
 li a,.dropbtn {
+    font-family: "artpost";
     color: rgb(255, 242, 185);
     display: inline-block;
     text-align: center;
     padding: 5px 15px;
     text-decoration: none;
 }
-
+.active, li a.active {
+    text-decoration: underline;
+}
 li a:hover,.dropdown:hover .dropbtn {
     text-decoration: underline;
-    text-shadow:rgb(38, 32, 51);
+    text-shadow: 0px 0px 5px rgb(38, 32, 51);
 }
 
 li.dropdown {
@@ -129,6 +160,7 @@ li.dropdown {
 }
 
 .dropdown-content {
+    
     display: none;
     position: absolute;
     background-color: rgb(114, 100, 148);
@@ -138,6 +170,7 @@ li.dropdown {
 }
 
 .dropdown-content a {
+    font-family: "artpostblack";
     padding: 12px 16px;
     text-decoration: none;
     display: block;
@@ -152,6 +185,9 @@ li.dropdown {
     display: block;
 }
 nav{
+    font-family: "bluescreen";
+    letter-spacing: 1px;
+    font-size: 15px;
     height:auto;
     display: inline-block;
     text-align: center;
@@ -161,10 +197,7 @@ nav a:hover, a:hover{
     text-decoration: underline;
 }
 
-a{
-    color: rgb(255, 242, 185);
-    text-decoration: none;
-}
+
 
 nav a{
     display: inline-block;
