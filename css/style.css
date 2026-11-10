@@ -12,7 +12,7 @@ body {
 
 .title {
     background-color: rgb(84, 69, 119);
-    padding: 10px;
+    padding-top: 10px;
 }
 
 .col {
@@ -94,6 +94,7 @@ li.dropdown {
     display: block;
 }
 nav{
+    height:auto;
     display: inline-block;
     text-align: center;
 }
