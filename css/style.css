@@ -1,6 +1,63 @@
+@font-face{
+    font-family:"newromantics";
+    src: url("woff/newromantics.woff2") format("woff2");
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face{
+    font-family:"blackcasper";
+    src: url("woff/BlackCasper.woff2") format("woff2");
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face{
+    font-family:"bluescreen";
+    src: url("woff/Blue Screen Personal Use.woff2") format("woff2");
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face{
+    font-family:"batman";
+    src: url("woff/BATMAN.woff") format("woff");
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face{
+    font-family:"led";
+    src: url("woff/LEDLIGHT.woff2") format("woff2");
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face{
+    font-family:"love";
+    src: url("woff/Love.woff") format("woff");
+    font-weight: normal;
+    font-style: normal;
+}
 body {
     background-color: rgb(38, 32, 51);
     color: rgb(255, 242, 185);
+}
+
+h1{
+    padding: 0px 10px;
+    font-family: "blackcasper";
+    font-size: 50px;
+    letter-spacing: 2px;
+}
+h2{
+    font-family: "led";
+}
+h3{
+    font-family: "bluescreen";
+    
+}
+h4{
+    font-family: "newromantics";
+    letter-spacing: 2px;
+}
+p{
+    font-family: "love";
 }
 
 .container {
