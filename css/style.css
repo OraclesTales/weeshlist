@@ -5,6 +5,7 @@ body {
 
 .container {
     width: 90%;
+    max-width: 850px;
     margin: auto;
     padding: 10px;
     text-align: left;
@@ -31,7 +32,7 @@ img {
     max-width: 100%;
     margin: 0 auto;
     height: auto;
-    max-height:250px;
+    max-height:350px;
 }
 
 .active, li a.active {
@@ -98,6 +99,16 @@ nav{
     display: inline-block;
     text-align: center;
 }
+
+nav a:hover, a:hover{
+    text-decoration: underline;
+}
+
+a{
+    color: rgb(255, 242, 185);
+    text-decoration: none;
+}
+
 nav a{
     display: inline-block;
     align-content: center;
@@ -106,9 +117,9 @@ nav a{
     color: rgb(255, 242, 185);
     text-decoration: none;
     font-weight: bold;
-}
-nav a:hover{
-    text-decoration: underline;
+    border-radius: 10px;
+    padding: 5px;
+    background-color: rgb(84, 69, 119);
 }
 
 .line{
